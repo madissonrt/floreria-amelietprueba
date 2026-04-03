@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/floreria-amelietprueba/',
   plugins: [react()],
   server: {
     host: true, // Esto permite el acceso desde la red
